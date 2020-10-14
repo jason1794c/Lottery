@@ -6,6 +6,8 @@ import Lotto649 from './Lotto_649/Lotto649';
 import gen649 from './Lotto_649/649generator';
 import lottoMaxPic from './Lotto_Max_Logo.png';
 import lotto649Pic from './1200px-Lotto_649_logo.svg.png';
+import DailyGrand from './Daily_Grand/DailyGrand';
+import DailyGen from './Daily_Grand/DailyGrandGen';
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
       <LottoMax initialNumbers={numGen} />
       <img className='Lotto649' src={lotto649Pic} alt='Lotto 649 Winning numbers!' />
       <Lotto649 initialNumbers={gen649} />
+      <DailyGrand initialNumbers={DailyGen} />
     </div>
   );
 }
