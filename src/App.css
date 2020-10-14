@@ -4,6 +4,7 @@
   margin-bottom: 60px;
 }
 
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -38,6 +39,9 @@
     transform: rotate(360deg);
   }
 }
+.LottoMax {
+  width: 100%;
+}
 
 .Lotto649 {
   margin-top: 46px;
@@ -50,7 +54,11 @@
   width: 65%;
 }
 
-.column {
-  float: left;
-  width: 30%
+@media screen and (min-width: 600px) {
+  .column {
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+  }
 }
