@@ -4,15 +4,15 @@ import LottoMax from './Lotto_Max/Lotto_MAX';
 import numGen from './Lotto_Max/number_generator';
 import Lotto649 from './Lotto_649/Lotto649';
 import gen649 from './Lotto_649/649generator';
-import lottoMaxPic from './111573-posts.feature_sm.jpg';
+import lottoMaxPic from './Lotto_Max_Logo.png';
+import lotto649Pic from './1200px-Lotto_649_logo.svg.png';
 
 function App() {
   return (
     <div className="App">
-      <img src={lottoMaxPic} alt='Lotto MAX Winning Numbers!'/> 
+      <img className='LottoMax' src={lottoMaxPic} alt='Lotto MAX Winning Numbers!'/> 
       <LottoMax initialNumbers={numGen} />
-      <></>
-      <h1>Lotto 649 Numbers!!</h1>
+      <img className='Lotto649' src={lotto649Pic} alt='Lotto 649 Winning numbers!' />
       <Lotto649 initialNumbers={gen649} />
     </div>
   );
