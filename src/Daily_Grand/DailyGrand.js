@@ -8,7 +8,7 @@ export default function DailyGrand({initialNumbers}) {
         <div>
             <h2>{`${numbers[0]}, ${numbers[1]}, ${numbers[2]}, ${numbers[3]}, ${numbers[4]}`}</h2>
             <h2><strong>GRAND NUMBER: </strong> {numbers[5]}</h2>
-            <button onClick={() => setNumbers(prevNumbers => DailyGen())}>Generate Numbers</button>
+            <button onClick={() => setNumbers(prevNumbers => DailyGen())}>Generate Lucky Numbers</button>
         </div>
     )
 }

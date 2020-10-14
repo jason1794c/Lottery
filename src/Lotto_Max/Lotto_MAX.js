@@ -7,7 +7,7 @@ export default function LottoMax( {initialNumbers }) {
     return(
         <div>
             <h2>{`${numbers[0]}, ${numbers[1]}, ${numbers[2]}, ${numbers[3]}, ${numbers[4]}, ${numbers[5]}, ${numbers[6]}`}</h2>
-            <button onClick={() => setNumbers(prevNumbers => numGen())}>Generate Numbers</button>
+            <button onClick={() => setNumbers(prevNumbers => numGen())}>Generate Lucky Numbers</button>
         </div>
     )
 };
