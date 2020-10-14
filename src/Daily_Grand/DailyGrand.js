@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import DailyGen from './DailyGrandGen';
 
 export default function DailyGrand({initialNumbers}) {
-    const [numbers, setNumbers] = useState( {initialNumbers})
+    const [numbers, setNumbers] = useState(initialNumbers)
 
     return (
         <div>
