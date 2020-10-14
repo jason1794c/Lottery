@@ -14,15 +14,15 @@ import dailyGrandLogo from './daily-grand-bonus-draw-3x2.png';
 function App() {
   return (
     <div className="App">
-      <div className='column'>
+      <div className='column' id='max'>
         <img className='LottoMax' src={lottoMaxPic} alt='Lotto MAX Winning Numbers!' />
         <LottoMax initialNumbers={numGen} />
       </div>
-      <div className='column'>
+      <div className='column' id='lotto649'>
         <img className='Lotto649' src={lotto649Pic} alt='Lotto 649 Winning Numbers!' />
         <Lotto649 initialNumbers={gen649} />
       </div>
-      <div className='column'>
+      <div className='column' id='DG'>
         <img className='DailyGrand' src={dailyGrandLogo} alt='Daily Grand Winning Numbers!' />
         <DailyGrand initialNumbers={DailyGen} />
       </div>

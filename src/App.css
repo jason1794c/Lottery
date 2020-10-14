@@ -1,7 +1,5 @@
 .App {
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 60px;
 }
 
 
@@ -45,13 +43,14 @@
 
 .Lotto649 {
   margin-top: 46px;
-  width: 55%;
+  margin-bottom: 7px;
+  width: 75%;
   height: auto;
 }
 
 .DailyGrand {
   margin-top: 20px;
-  width: 65%;
+  width: 70%;
 }
 
 @media screen and (min-width: 600px) {
@@ -60,5 +59,23 @@
     width: 30%;
     text-align: center;
     padding: 20px;
+  }
+
+  #max {
+    padding-top: 5%;
+    padding-bottom: 100%;
+    background-image: url('./Lotto_Max/bg-landing-lottomax.jpg');
+  }
+
+  #lotto649 {
+    padding-top: 5%;
+    padding-bottom: 100%;
+    background-image: url('./Lotto_649/1472670177291_57c729e0fb3bb1255984d246.png');
+  }
+
+  #DG {
+    padding-top: 5%;
+    padding-bottom: 100%;
+    background-image: url('./Daily_Grand/1484686594850_587e85029f7b1ab31ad12ed1.jpg');
   }
 }
