@@ -40,11 +40,17 @@
 }
 
 .Lotto649 {
-  margin-top: 50px;
-  width: 20%;
+  margin-top: 46px;
+  width: 55%;
   height: auto;
 }
 
 .DailyGrand {
-  margin-top: 50px;
+  margin-top: 20px;
+  width: 65%;
+}
+
+.column {
+  float: left;
+  width: 30%
 }
